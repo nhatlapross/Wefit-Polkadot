@@ -11,32 +11,7 @@ The NFT Chain also provides:
 * Smart Contracts Pallet and example smart contract that interacts with NFT Runtime
 * ERC-1155 Functionality (currently PoC as Re-Fungible tokens, i.e. items that are still unique, but that can be split between multiple users)
 * Variety of economic options for dapp producers to choose from to create freemium games and other ways to attract users. As a step one, we implemented an economic model when a collection sponsor can be set to pay for collection Transfer transactions.
-
-Wider NFT Ecosystem (most of it was developed during Hackusama):
-* [SubstraPunks Game hosted on IPFS](https://github.com/usetech-llc/substrapunks)
-* [NFT Wallet and UI](https://uniqueapps.usetech.com/#/nft)
-* [NFT Asset for Unity Framework](https://github.com/usetech-llc/nft_unity)
-
-Please see our [walk-thorugh instructions](doc/hackusama_walk_through.md) to try everything out!
-
-## Hackusama Update
-
-During the Kusama Hackaphon the following changes were made:
-* Enabled Smart Contracts Pallet
-* Enabled integration between Smart Contracts and NFT Pallet (required special edition of RC4 Substrate version)
-* Fixed misc. bugs in NFT Pallet
-* Deployed NFT TestNet. Public node available at wss://unique.usetech.com, custom UI types - see below in this README.
-* New Features:
-  * Re-Fungible Token Mode
-  * Off-Chain Schema to store token image URLs
-  * Alternative economic model
-  * White Lists and Public Mint Permission
-* Use example: [SubstraPunks Game](https://github.com/usetech-llc/substrapunks), fully hosted on IPFS and NFT Testnet Blockchain.
-
-## Application Development
-
-If you are building an application that operates NFT tokens, use [this document](doc/application_development.md).
-
+* 
 ## Building
 
 Building NFT chain requires special versions of Rust and toolchain. We don't use the most recent versions of everything so that we can keep the builds stable.
